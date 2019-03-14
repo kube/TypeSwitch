@@ -1,5 +1,6 @@
 {
   "name": "typeswitch",
+  "description": "Convert FlowType to TypeScript",
   "version": "0.0.1",
   "main": "dist/lib.js",
   "license": "MIT",
