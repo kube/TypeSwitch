@@ -880,6 +880,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
   integrity sha512-s5kLOcnH0XqDO+FvuaLX8DDjZ18CGFk7VygH40QoKPUQhW4e2rvM0rwUq0t8IQDOwYSeLK01U90OjzBTme2QqA==
 
+kube-header@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/kube-header/-/kube-header-1.0.5.tgz#16511b8564d34c218018588f2e2a4262b4a90911"
+  integrity sha1-FlEbhWTTTCGAGFiPLipCYrSpCRE=
+
 lint-staged@^8.1.5:
   version "8.1.5"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-8.1.5.tgz#372476fe1a58b8834eb562ed4c99126bd60bdd79"
