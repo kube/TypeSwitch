@@ -4,6 +4,11 @@
   "version": "0.0.1",
   "main": "dist/lib.js",
   "license": "MIT",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "build": "webpack --config ./webpack/webpack.config",
+    "dev": "webpack-dev-server --config ./webpack/webpack.config"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/types": "^7.3.4",
