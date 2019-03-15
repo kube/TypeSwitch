@@ -72,7 +72,7 @@ export function Editor(props: EditorProps) {
             fontFamily: FONTS.CODE,
             readOnly: props.readOnly,
             minimap: { enabled: false },
-            contextMenu: false
+            contextmenu: false
           }}
         />
       </div>
