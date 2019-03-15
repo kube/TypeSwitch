@@ -28,11 +28,15 @@ const config = {
         test: /\.(j|t)sx?$/,
         exclude: /node_modules/,
         loaders: ["babel-loader"]
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"]
       }
     ]
   },
   resolve: {
-    extensions: [".ts", ".js", ".json"],
+    extensions: [".ts", ".tsx", ".js", ".json"],
     alias: {
       "@cli": join(SOURCE_ROOT, "cli"),
       "@lib": join(SOURCE_ROOT, "lib")

@@ -13,6 +13,7 @@
 const { join } = require("path");
 const merge = require("webpack-merge");
 const HtmlPlugin = require("html-webpack-plugin");
+const MonacoEditorPlugin = require("monaco-editor-webpack-plugin");
 
 const baseConfig = require("./webpack.base");
 
@@ -45,6 +46,10 @@ module.exports = [
     plugins: [
       new HtmlPlugin({
         template: join(SOURCE_ROOT, "app/index.html")
+      }),
+      new MonacoEditorPlugin({
+        languages: [],
+        features: []
       })
     ]
   }),
